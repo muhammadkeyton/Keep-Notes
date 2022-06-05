@@ -1,0 +1,34 @@
+
+.notecard__container{
+    padding:0 20px;
+}
+
+.note_card{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-top:10vh;
+    width:200px;
+    border-radius: 10px;
+    background-color:darkslategrey;
+    color:#fff;
+}
+  
+  
+  /* Add some padding inside the card container */
+.note_container{
+    padding:2px 16px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .notecard__container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding:0 20px;
+    }
+    .note_card{
+        width:300px;
+    }
+}
